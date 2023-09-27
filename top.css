@@ -1,0 +1,45 @@
+/* a的样式 */
+a{
+    text-decoration:none;
+    color:#000000;
+}
+/* 动画 */
+@keyframes TopTo1{
+    0%{
+        background-color:rgba(255,255,255,0.8);
+        color:rgba(0,0,0,1);
+    }
+    100%{
+        background-color:rgba(255,255,255,1);
+        color:rgba(0,0,0,1);
+    }
+}
+@keyframes TopTo0_75{
+    0%{
+        background-color:rgba(255,255,255,1);
+        color:rgba(0,0,0,1);
+    }
+    100%{
+        background-color:rgba(255,255,255,0.8);
+        color:rgba(0,0,0,1);
+    }
+  }
+/* 顶部悬浮框 */
+#top{
+    font-family:'HYWH-85W';
+    position:fixed;
+    top:0vh;
+    left:0vh;
+    background-color:rgba(255,255,255,0.8);;
+    height:5.25vh;
+    width:100vw;
+    font-size:2vh;
+    /*渐变色 background-image:linear-gradient(to right,rgba(216,135,178,0.2),rgba(175,181,241,0.2));*/
+    color:#000000;
+    animation:TopTo0_75 0.5s ease 1;
+    border-bottom:0.25vh solid #000000;
+}
+#top:hover{
+    animation:TopTo1 0.5s ease 1;
+    animation-fill-mode:forwards;
+}

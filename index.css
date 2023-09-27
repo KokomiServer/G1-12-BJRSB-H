@@ -1,0 +1,161 @@
+/* 全局样式 */
+body{
+    font-family:'HYWH-85W';
+}
+a{
+    text-decoration:none;
+    color:#000000;
+}
+
+/* 顶部悬浮框 */
+#TFMS_png{
+    position:fixed;
+    top:0.5vh;
+    left:0.5vh;
+    width:4vh;
+    height:4vh;
+    z-index:10;
+    zoom: 1;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center 0;
+    background-image:url('TFMS.png')
+}
+/* 标题 */
+#title_zh{
+    font-family:'HYWH-85W';
+    position:fixed;
+    font-size: 2.5vh;
+    left:5vh;
+    top:0.5vh;
+}
+#title_en{
+    font-family:'HYWH-85W';
+    position:fixed;
+    font-size: 1vh;
+    left:5vh;
+    top:3.5vh;
+}
+/* 左侧工具栏 */
+#body{
+    display:inline-block;
+}
+#left{
+    font-size:1.25vw;
+    text-align:center;
+    position:fixed;
+    border-color:aliceblue;
+    border-style:solid;
+    border-radius:2vh;
+    border-width:0.25vh;
+    top:7.5vh;
+    left:1.5vw;
+    height:88.75vh;
+    width:15vw;
+    background-color:rgba(255,255,255,0.45);
+}
+#left-title{
+    font-size:2vw;
+    font-family:'HYWH-85W';
+    color:black;
+}
+/* 右侧内容 */
+#right{
+    font-size:1.25vw;
+    text-align:center;
+    position:fixed;
+    border-color:aliceblue;
+    border-style:solid;
+    border-radius:2vh;
+    border-width:0.25vh;
+    top:7.5vh;
+    right:24vw;
+    height:88.75vh;
+    width:57.5vw;
+    background-color:rgba(255,255,255,0.45);
+}
+#right-title{
+    font-size:2vw;
+    font-family:'HYWH-85W';
+    color:black;
+}
+/*.tools{
+    height:2.75vh;
+    width:10.5vh;
+    background-color:rgba(255,255,255,0.45);
+    border-color:rgba(255,255,255,0.9);
+    border-style:solid;
+    border-radius:1vh;
+    border-width:0.25vh;
+    margin:0 auto;
+}
+*/
+/* 作业 */
+#homework{
+    font-size:1.25vw;
+    text-align:center;
+    position:fixed;
+    border-color:aliceblue;
+    border-style:solid;
+    border-radius:2vh;
+    border-width:0.25vh;
+    top:7.5vh;
+    right:1.5vw;
+    height:88.75vh;
+    width:21vw;
+    background-color:rgba(255,255,255,0.45);
+}
+#homework-title{
+    font-size:2vw;
+    font-family:'HYWH-85W';
+    color:black;
+}
+/* 工具小界面 */
+.tt{
+    display:none;
+    position:fixed;
+    height:35vh;
+    width:35vw;
+    top:32.5vh;
+    left:32.5vw;
+    background-color:rgba(255,255,255,0.7);
+    text-align:center;
+    border-color:rgba(255,255,255,0.9);
+    border-style:solid;
+    border-radius:2vh;
+    border-width:0.5vh;
+    font-size:1vw;
+}
+#ttTitle{
+    font-size:2vw;
+}
+#ttC,#ttText,#ttSave{
+    height:2vh;
+    width:6vw;
+}
+#ttSave{
+    position:fixed;
+    margin:0 auto;
+    text-align:center;
+    top:65vh;
+    font-size:1vw;
+    height:1.125vw;
+    width:2.5vw;
+    left:48.75vw;
+    border-color:rgba(0,0,0,0.45);
+    background-color:rgba(255,255,255,0.5);
+    border-style:solid;
+    border-radius:0.5vh;
+    border-width:0.25vh;
+}
+/* 调整的内容 */
+.texts{
+    color:#000000;
+    font-size:1.5vw;
+    font-family:'HYWH-85W';
+}
+/* 导入字体 */
+@font-face {
+    font-family:'HYWH-85W';
+    src:url('HYWH-85W.ttf');
+}

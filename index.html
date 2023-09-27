@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>高一12班班级热搜榜</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="top.css">
+        <link rel="stylesheet" href="bottom.css">
+        <link rel="stylesheet" href="BG.css">
+        <script type="text/javascript" src="jquery.js"></script>
+    </head>
+    <body id="BG">
+        <div id="top">
+            <div id="TFMS_png"></div>
+            <div id="title_zh">高一 12班 : 班级热搜榜</div>
+            <div id="title_en">TFMS Grade 1 Class 12’s Searching Rank</div>
+        </div>
+        <div id="body">
+            <div id="left">
+                <div id="left-title">工具栏</div>
+                <br>
+                <div id="append1" class="tools">添加内容</div>
+                <div id="delete1" class="tools">删除内容</div>
+            </div>
+            <div id="right">
+                <div id="right-title">班级热搜榜</div>
+                <div id="rank"></div>
+            <div class="texts" id="1">逸一时误一世，逸久逸久罢已龄</div>
+            <div class="texts" id="0">祝祖国生日快乐！</div>
+            </div>
+            <div id="homework">
+                <div id="homework-title">今日作业</div>
+            <div class="texts" id="2">语文:1.对学案答案+补笔记;</div><div class="texts" id="3">2.默写7首诗;</div><div class="texts" id="4">3.蓝本U1所有题;</div><div class="texts" id="5">数学:1.集合的基本概念练习卷;</div><div class="texts" id="6">2.小本第一章检测;</div><div class="texts" id="7">英语:1.两张报纸;</div><div class="texts" id="8">2.按单词卷复习单词;</div><div class="texts" id="9">地理:完善学案;练习册前2课;小本阶段性检测一;</div><div class="texts" id="10">政治:学案2张;打印钉钉群文件</div><div class="texts" id="11">历史:复习1单元;参观博物馆或观看纪录片的观后感,400字左右;</div><div class="texts" id="12">物理:书14,19-20,26,31,33-34页练习与应用;整理学案;一单元质检(红笔核对);画v-t图;</div><div class="texts" id="13">化学:册10-12;三张卷子;</div><div class="texts" id="14"></div><div class="texts" id="15"></div></div>
+        </div>
+        <div id="bottom_texts">
+            高一12班朱家翔设计并制作  高一2班张恩浩协助
+        </div>
+        <!--添加/删除框-->
+        <div id="tta" class="tt">
+            <div id="ttTitle">添加内容</div>
+            <br>
+            <div>请选择内容所属区域</div>
+            <select name="ChooseDiplayArea" id="ttC">
+                <option id="ttCR">热搜榜</option>
+                <option id="ttCC">作业</option>
+            </select>
+           <div id="tt-text">请输入添加的内容</div>
+            <input id="ttText" type="text">
+            <br>
+            <div id="ttSave">确认</div>
+        </div>
+        <!--删除提示框(暂时懒得做)-->
+        <script src="index.js" type="text/javascript"></script>
+    </body>
+</html>
